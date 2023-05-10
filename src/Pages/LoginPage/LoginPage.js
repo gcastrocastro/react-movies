@@ -19,7 +19,6 @@ export default function LoginPage({setUser}) {
                 <div>
                     <label>Username</label>
                     <input 
-                        name="user"
                         type="text" 
                         value={newUser}
                         onChange={handleChange}
