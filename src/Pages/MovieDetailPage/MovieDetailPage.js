@@ -1,5 +1,6 @@
 import {useState, useEffect} from 'react';
 import {useParams} from 'react-router-dom';
+import './MovieDetailPage.css';
 
 export default function MovieDetailPage({movies}) {
     const {movieName} = useParams();
@@ -31,7 +32,8 @@ export default function MovieDetailPage({movies}) {
           <div className="details">
             <h2>{movie.title}</h2>
             <h3>({movie.releaseDate})</h3>
-            <h4>Cast</h4>
+            <br/>
+            <h4>Cast: </h4>
             <p>{movie.cast.join(', ')}</p>
           </div>
         </div>

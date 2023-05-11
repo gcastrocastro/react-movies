@@ -1,0 +1,13 @@
+.details-container{
+    height: 90vh;
+    width: 100vw;
+    background: rgb(27,32,107);
+    background: radial-gradient(circle, rgba(27,32,107,1) 0%, rgba(89,75,214,1) 100%);
+    color: white;
+}
+
+.details-container img {
+    width: auto;
+    height: 60vh;
+    margin-top: 6vh;
+}
