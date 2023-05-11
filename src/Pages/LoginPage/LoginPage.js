@@ -18,16 +18,13 @@ export default function LoginPage({setUser}) {
         <div className="background-container">
             <div className='form-container'>
                 <form autoComplete="off" onSubmit={handleSubmit}>
-                <label>Please enter a Username</label>
-                    {/* <div className="input">          */}
-                        <input 
-                            type="text" 
-                            value={newUser}
-                            onChange={handleChange}
-                            // placeholder="Enter your username here!"
-                            required
-                        />
-                    {/* </div> */}
+                    <label>Please enter a Username</label>
+                    <input 
+                        type="text" 
+                        value={newUser}
+                        onChange={handleChange}
+                        required
+                    />
                     <br/>
                     <button type="submit">Sign In</button>
                 </form>

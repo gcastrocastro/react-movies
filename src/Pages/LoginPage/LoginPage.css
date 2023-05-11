@@ -20,8 +20,6 @@
 .form-container label{
     color: #fff;
     text-align: center;
-    margin: 0;
-    margin-bottom: 40px;
     font-size: 2.5em;
     font-weight: normal;
 }
@@ -35,4 +33,22 @@
     border-radius: 5px;
     color: #fff;
     font-weight: lighter;
+}
+
+.form-container button {
+    padding: 10px 30px;
+    width: 50%;
+    border-radius: 5px;
+    background: hsla(201, 100%, 50%, 0.1);
+    border: 1px solid hsl(201, 100%, 50%);
+    outline: none;
+    font-size: 1.5em;
+    color: #fff;
+    font-weight: lighter;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background: hsla(201, 100%, 50%, 0.5);
 }
