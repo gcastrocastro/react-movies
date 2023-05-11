@@ -1,0 +1,38 @@
+.background-container{
+    background-image: url(https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-container{
+    background-color: hsla(201, 100%, 6%, 0.9);
+    padding: 50px 30px;
+    min-width: 400px;
+    width: 50%;
+    max-width: 600px;
+}
+
+.form-container label{
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 40px;
+    font-size: 2.5em;
+    font-weight: normal;
+}
+
+.form-container input {
+    font-size: 1.5em;
+    padding: 0.1em 0.25em;
+    background-color: hsla(201, 100%, 91%, 0.5);
+    border: 1px solid hsl(201, 100%, 6%);
+    outline: none;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: lighter;
+}
