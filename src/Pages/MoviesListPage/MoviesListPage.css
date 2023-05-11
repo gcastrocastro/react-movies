@@ -1,0 +1,6 @@
+.movies-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background: rgb(27,32,107);
+    background: radial-gradient(circle, rgba(27,32,107,1) 0%, rgba(89,75,214,1) 100%);
+}

@@ -1,3 +1,5 @@
+import './MovieCard.css';
+
 export default function MovieCard({movie}) {
     return (
         <div className="movie-card">
@@ -7,7 +9,7 @@ export default function MovieCard({movie}) {
             />
             <div className="movie-info">
                 <h3>{movie.title}</h3>
-                <span>{movie.releaseDate}</span>
+                <h3>Released on: {movie.releaseDate}</h3>
             </div>
         </div>
     )

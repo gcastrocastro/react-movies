@@ -1,0 +1,21 @@
+.movie-card{
+    background-color: hsla(201, 100%, 6%, 0.9);
+    border-style: solid;
+    margin: 1vw;
+    border-radius: 5px;
+    border-width: 0.5px;
+    border-color: rgba(150,150,150,0.5);
+    text-align: center;
+    width: 30vw;
+    height: 70vh;
+}
+
+.movie-card img {
+    margin-top: 5vh;
+    width:20vw;
+    height:55vh;
+}
+
+.movie-info h3 {
+    color: white;
+}

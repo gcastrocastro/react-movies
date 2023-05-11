@@ -1,0 +1,16 @@
+nav {
+    background: rgb(27,32,107);
+    background: radial-gradient(circle, rgba(27,32,107,1) 0%, rgba(173,75,214,1) 100%);
+    height: 15vh;
+}
+
+nav h3,
+nav a {
+    color: white;
+    padding: 3vh;
+    transition: 1s;
+}
+
+nav h3:hover {
+    transform: scale(1.3);
+}
