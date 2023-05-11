@@ -1,4 +1,5 @@
 import ActorCard from "../../Components/ActorCard/ActorCard"
+import './ActorsListPage.css';
 
 export default function ActorsListPage({movies}) {
     let allCast = [];
@@ -10,7 +11,7 @@ export default function ActorsListPage({movies}) {
     const castNoDup = Array.from(castSet);
 
     return (
-        <section>
+        <section className="actors-container">
             {castNoDup.map(actor => {
                 return(
                     <ActorCard actor={actor} />
